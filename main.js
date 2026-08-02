@@ -93,18 +93,6 @@ const videoModal = document.getElementById("videoModal");
 const videoPlayer = document.getElementById("videoPlayer");
 const closeModal = document.getElementById("closeModal");
 
-// فتح الفيديو من Google Drive
-function openVideoModal(driveId) {
-  if (!videoModal || !videoPlayer) return;
-
-  const iframeUrl = `https://drive.google.com/file/d/${driveId}/preview`;
-
-  videoPlayer.src = iframeUrl;
-
-  videoModal.classList.add("active");
-
-  document.body.style.overflow = "hidden";
-}
 
 // غلق الفيديو
 function closeVideoModal() {
