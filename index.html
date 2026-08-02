@@ -240,119 +240,104 @@
     </section>
 
     <!-- ================= Projects ================= -->
-    <section
-      class="projects"
-      id="projects"
-      data-aos="fade-up"
-      data-aos-duration="1000"
+   <section
+  class="projects"
+  id="projects"
+  data-aos="fade-up"
+  data-aos-duration="1000"
+>
+  <h2 class="section-title">My Projects</h2>
+  <p class="section-desc">
+    Here are some of my recent projects showcasing my skills and expertise.
+  </p>
+
+  <div
+    class="projects-container"
+    data-aos="fade-up"
+    data-aos-duration="1200"
+    data-aos-delay="100"
+  >
+
+    <!-- Project 1 -->
+    <div
+      class="project-card"
+      data-aos="slide-up"
+      data-aos-duration="700"
+      data-aos-delay="0"
     >
-      <h2 class="section-title">My Projects</h2>
-      <p class="section-desc">
-        Here are some of my recent projects showcasing my skills and expertise.
-      </p>
-      <div
-        class="projects-container"
-        data-aos="fade-up"
-        data-aos-duration="1200"
-        data-aos-delay="100"
-      >
-        <div
-          class="project-card"
-          data-aos="slide-up"
-          data-aos-duration="700"
-          data-aos-delay="0"
+      <div class="project-image">
+        <video
+          class="project-video"
+          controls
+          preload="metadata"
+          muted
         >
-          <div class="project-image">
-            <iframe
-              src="https://drive.google.com/file/d/1XT8YjwYexVNxtp3xagpLUREtutV-Dt2s/preview"
-              class="project-video"
-              allow="autoplay"
-              loading="lazy"
-            ></iframe>
-            <div class="project-overlay">
-              <button
-                class="play-btn"
-                onclick="openVideoModal('1XT8YjwYexVNxtp3xagpLUREtutV-Dt2s')"
-              >
-                <i class="fa-solid fa-play"></i>
-              </button>
-            </div>
-          </div>
-          <h3>Timeless Elegance</h3>
-          <p>A modern interior design showcase website</p>
-        </div>
-
-        <div
-          class="project-card"
-          data-aos="slide-up"
-          data-aos-duration="700"
-          data-aos-delay="100"
-        >
-          <div class="project-image">
-            <iframe
-              src="https://drive.google.com/file/d/14busLCRt1wDELNpmukji_du5yaN2gfCy/preview"
-              class="project-video"
-              allow="autoplay"
-              loading="lazy"
-            ></iframe>
-            <div class="project-overlay">
-              <button
-                class="play-btn"
-                onclick="openVideoModal('14busLCRt1wDELNpmukji_du5yaN2gfCy')"
-              >
-                <i class="fa-solid fa-play"></i>
-              </button>
-            </div>
-          </div>
-          <h3>Product Showcase</h3>
-          <p>An interactive product display platform</p>
-        </div>
-
-        <div
-          class="project-card"
-          data-aos="slide-up"
-          data-aos-duration="700"
-          data-aos-delay="200"
-        >
-          <div class="project-image">
-            <iframe
-              src="https://drive.google.com/file/d/1ieiAfoQENFG9H99BIcZjJs79ciyfDkOP/preview"
-              class="project-video"
-              allow="autoplay"
-              loading="lazy"
-            ></iframe>
-            <div class="project-overlay">
-              <button
-                class="play-btn"
-                onclick="openVideoModal('1ieiAfoQENFG9H99BIcZjJs79ciyfDkOP')"
-              >
-                <i class="fa-solid fa-play"></i>
-              </button>
-            </div>
-          </div>
-          <h3>Mealify</h3>
-          <p>A healthy food ordering and delivery app</p>
-        </div>
+          <source
+            src="https://res.cloudinary.com/yerzxiba/video/upload/v1785705568/elegance_y1pwe0.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
       </div>
-    </section>
 
-    <!-- ================= Video Modal ================= -->
-    <div class="video-modal" id="videoModal">
-      <div class="modal-content">
-        <button class="close-btn" id="closeModal">
-          <i class="fa-solid fa-xmark"></i>
-        </button>
-        <iframe
-          id="videoPlayer"
-          width="100%"
-          height="600"
-          src=""
-          allow="autoplay"
-          allowfullscreen
-          loading="lazy"
-        ></iframe>
-      </div>
+      <h3>Timeless Elegance</h3>
+      <p>A modern interior design showcase website</p>
     </div>
+
+    <!-- Project 2 -->
+    <div
+      class="project-card"
+      data-aos="slide-up"
+      data-aos-duration="700"
+      data-aos-delay="100"
+    >
+      <div class="project-image">
+        <video
+          class="project-video"
+          controls
+          preload="metadata"
+          muted
+        >
+          <source
+            src="https://res.cloudinary.com/yerzxiba/video/upload/v1785705342/Product_Showcase_-_Google_Chrome_2025-12-03_13-31-07_papzpo.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <h3>Product Showcase</h3>
+      <p>An interactive product display platform</p>
+    </div>
+
+    <!-- Project 3 -->
+    <div
+      class="project-card"
+      data-aos="slide-up"
+      data-aos-duration="700"
+      data-aos-delay="200"
+    >
+      <div class="project-image">
+        <video
+          class="project-video"
+          controls
+          preload="metadata"
+          muted
+        >
+          <source
+            src="https://res.cloudinary.com/yerzxiba/video/upload/v1785705514/WhatsApp_Video_2026-08-01_at_1.17.55_AM_vtkrid.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <h3>Mealify</h3>
+      <p>A healthy food ordering and delivery app</p>
+    </div>
+
+  </div>
+</section>
 
     <!-- ================= Contact ================= -->
     <section
